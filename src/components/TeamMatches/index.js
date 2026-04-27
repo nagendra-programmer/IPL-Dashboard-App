@@ -90,7 +90,7 @@ class TeamMatches extends Component {
     return (
       <div className="bg-contianer">
         {isLoading ? (
-          <div testid="loader">
+          <div >
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
           </div>
         ) : (
